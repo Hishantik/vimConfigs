@@ -27,6 +27,14 @@ return require('packer').startup(function(use)
     'xeluxee/competitest.nvim',
     requires = 'MunifTanjim/nui.nvim',
   }
+  use ({
+    "folke/noice.nvim",
+    event = "VimEnter",
+    requires = {
+    	"MunifTanjim/nui.nvim",
+    	"rcarriga/nvim-notify",
+    }
+  })
   use {'lewis6991/gitsigns.nvim'}
   use {'neoclide/coc.nvim', branch = 'release'}
   use {'glepnir/dashboard-nvim'}
