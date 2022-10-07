@@ -2,9 +2,9 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use {'nvim-treesitter/nvim-treesitter',run=":TSUpdate"}
   use {'glepnir/zephyr-nvim'}
-  use {'norcalli/nvim-colorizer.lua'}
   use {"akinsho/toggleterm.nvim", tag = '*'}
 --  use {'tc50cal/vim-terminal'}
+  use {'norcalli/nvim-colorizer.lua'}
   use 'rafi/awesome-vim-colorschemes'
   use {
     'nvim-lualine/lualine.nvim',
