@@ -78,6 +78,7 @@ local mappings = {
   E = {":e .config/nvim/lua", "Edit lua configs"},
   f = {":Telescope find_files<CR>", "To find files "},
   R = {":Telescope live_grep<CR>", "Telescope Live grep" },
+  t = {":ToggleTerm<CR>", "Terminal" },
 } 
 local opts = { prefix = '<leader>'}
 wk.register(mappings, opts)

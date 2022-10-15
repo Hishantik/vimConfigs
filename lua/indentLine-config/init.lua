@@ -8,7 +8,7 @@ vim.cmd [[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]]
 
 require("indent_blankline").setup({
   buftype_exclude = {"terminal"},
-  filetype_exclude = {"dashboard","Nvimtree","packer"},
+  filetype_exclude = {"dashboard","Nvimtree","packer","nvim-lsp-installer"},
   show_currnet_context = true,
   show_current_context_start = true,
   context_patterns = {

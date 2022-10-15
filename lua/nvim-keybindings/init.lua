@@ -13,5 +13,4 @@ map('v','<','<gv',{noremap = true, silent = false})
 map('n','<leader>T',':TagbarToggle<CR>',{noremap = true, silent = true})
 map('n','<leader>F',':RnvimrToggle<CR>',{noremap = true, silent = true})
 map('n','<leader>c',':CocList marketplace<CR>',{noremap = true, silent = true})
---map('i','<Tab>',':? coc#_select_confirm()<CR>',{noremap = true, silent = true})
---inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
+
